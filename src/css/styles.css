@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ffcc00;
+  box-shadow: 0 0 5px #ffcc00;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#searchResults {
+  margin-top: 20px;
+  text-align: center; /* To center the content horizontally */
+}
+
+#searchResults a {
+  display: block; /* Convert the link into a block to occupy the full width of the container */
+  margin-bottom: 20px; /* Space between each result */
+}
+
+#searchResults img {
+  width: 100px; /* Maximum width of the image */
+  height: auto; /* Automatic height to maintain aspect ratio */
+  display: block; /* To center the image horizontally */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+#searchResults p {
+  margin: 5px 0; /* Margin around the car name */
+}
+
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#car-details {
+  margin: 20px auto; /* Center the container horizontally */
+  width: 80%; /* Container width */
+  max-width: 600px; /* Maximum container width */
+  text-align: center; /* Center the content horizontally */
+}
+
+#car-details img {
+  display: block; /* To center the image horizontally */
+  margin: 0 auto; /* Center the image horizontally */
+  border: 2px solid #000; /* 2px solid black border */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 100%; /* Maximum width of the image */
+  height: auto; /* Automatic height to maintain aspect ratio */
+}
+
+#car-details h2 {
+  margin-bottom: 10px; /* Space below the title */
+}
+
+#car-details p {
+  margin: 5px 0; /* Space around paragraphs */
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "price": 20000,
+    "color": "Blue",
+    "image": "../imagens/toyota.png"
+  },
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "Civic",
+    "price": 22000,
+    "color": "Red",
+    "image": "../imagens/hondacivic.jpg"
+  }
+]
